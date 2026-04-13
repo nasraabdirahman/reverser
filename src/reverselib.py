@@ -6,6 +6,15 @@ def reverse(n):
 
     >>> reverse(234)
     432
+
+    >>> reverse(123)
+    321
+
+    >>> reverse(876)
+    678
+
+    # >>> reverse(123) # Intentional issue
+    # 32
     """
     r = 0
     while n > 0:
